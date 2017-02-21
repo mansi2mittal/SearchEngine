@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2ED0591373D8169852C7A09CAFB4241AB203781B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2ED0591373D8169852C7A09CAFB4241AB203781B" : 9223372036854775807,
+    "7DE8044D11F2FFC891EFC84885AAF3C530A83448" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4FB3EFEE-8146-4F2D-9CAF-9A8DB35FA42E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2ED0591373D8169852C7A09CAFB4241AB203781B" : "ImgSearchEngine\/",
+    "7DE8044D11F2FFC891EFC84885AAF3C530A83448" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SearchEngine",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SearchEngine\/SearchEngine.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mansiappinventiv\/ImgSearchEngine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2ED0591373D8169852C7A09CAFB4241AB203781B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mansiappinventiv\/mansi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7DE8044D11F2FFC891EFC84885AAF3C530A83448"
+    }
+  ]
+}

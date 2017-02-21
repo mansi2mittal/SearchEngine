@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EDF2898B0364F496CCBA9AE2A6B0983D2D065E2A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EDF2898B0364F496CCBA9AE2A6B0983D2D065E2A" : 9223372036854775807,
+    "7DE8044D11F2FFC891EFC84885AAF3C530A83448" : 9223372036854775807,
+    "2ED0591373D8169852C7A09CAFB4241AB203781B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3C25DBA8-195C-4EAE-9E99-96CC7977493B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EDF2898B0364F496CCBA9AE2A6B0983D2D065E2A" : "searchEngine\/",
+    "7DE8044D11F2FFC891EFC84885AAF3C530A83448" : "",
+    "2ED0591373D8169852C7A09CAFB4241AB203781B" : "ImgSearchEngine\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SearchEngine",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SearchEngine.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mansiappinventiv\/ImgSearchEngine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2ED0591373D8169852C7A09CAFB4241AB203781B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mansiappinventiv\/mansi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7DE8044D11F2FFC891EFC84885AAF3C530A83448"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mansi2mittal\/SearchEngine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EDF2898B0364F496CCBA9AE2A6B0983D2D065E2A"
+    }
+  ]
+}

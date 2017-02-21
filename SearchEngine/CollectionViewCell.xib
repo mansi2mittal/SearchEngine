@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCellID" id="jHN-1n-6vT" userLabel="CollectionViewCell" customClass="CollectionViewCell" customModule="SearchEngine" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qWB-lI-enD" customClass="imageCell">
+                        <rect key="frame" x="5" y="5" width="150" height="140"/>
+                        <color key="backgroundColor" red="0.69271991079999995" green="0.89381741749999999" blue="0.61612495739999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="qWB-lI-enD" firstAttribute="top" secondItem="jHN-1n-6vT" secondAttribute="topMargin" constant="-3" id="PmV-iU-upE"/>
+                <constraint firstAttribute="bottomMargin" secondItem="qWB-lI-enD" secondAttribute="bottom" constant="-3" id="TRf-nH-AbW"/>
+                <constraint firstAttribute="trailingMargin" secondItem="qWB-lI-enD" secondAttribute="trailing" constant="-3" id="nfv-Mk-hSb"/>
+                <constraint firstItem="qWB-lI-enD" firstAttribute="leading" secondItem="jHN-1n-6vT" secondAttribute="leadingMargin" constant="-3" id="sUv-Zb-nJ9"/>
+            </constraints>
+            <connections>
+                <outlet property="imageInCell" destination="qWB-lI-enD" id="7Fb-rP-796"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
