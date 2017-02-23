@@ -55,8 +55,8 @@
             self.imagesCollectionView.reloadData()
             
         }) { (error : Error) in
-            
-        }
+            print(Error.self)
+            }
 
         
    // SETTING THE FLOW LAYOUT OF THE COLLECTION VIEW
@@ -93,7 +93,18 @@
         Webservices().fetchDataFromPixabay(withQuery: searchBar.text!, success: { (images : [ImageInfo]) in
             
         self.imagesList = images
-        self.imagesCollectionView.reloadData()
+            
+        if self.imagesList.count == 0
+         {
+            let alert = UIAlertController(title: "Whooops!!", message: "Please Enter a Valid search item ", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Back", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+        }
+            else{
+            
+           self.imagesCollectionView.reloadData()
+                
+            }
             
          }) { (error : Error) in
             
@@ -102,9 +113,7 @@
         
         searchBar.endEditing(true)
          }
-
-    
-     }
+        }
 
   //  MARK: EXTENSION OF THE MAIN VIEW CONTROLLER FOR THE COLLECTION VIEW
 
