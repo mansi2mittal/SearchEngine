@@ -81,7 +81,7 @@
 
    }
 
-  // MARK : EXTENSION OF MAIN VIEW CONTROLLER FOR THE SEARCH BAR
+   // MARK : EXTENSION OF MAIN VIEW CONTROLLER FOR THE SEARCH BAR
 
    extension MainViewController : UISearchBarDelegate
     
@@ -93,6 +93,8 @@
         Webservices().fetchDataFromPixabay(withQuery: searchBar.text!, success: { (images : [ImageInfo]) in
             
         self.imagesList = images
+            
+        // IF THE USER IS NOT ENTERING A VALID KEYWORD THEN ALERT WILL BE POPPED
             
         if self.imagesList.count == 0
          {
@@ -115,7 +117,7 @@
          }
         }
 
-  //  MARK: EXTENSION OF THE MAIN VIEW CONTROLLER FOR THE COLLECTION VIEW
+     //  MARK: EXTENSION OF THE MAIN VIEW CONTROLLER FOR THE COLLECTION VIEW
 
     extension MainViewController : UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout
     
